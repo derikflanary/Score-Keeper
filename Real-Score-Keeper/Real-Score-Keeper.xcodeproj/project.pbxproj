@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		EE30AF571A5E3277006A6DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30AF561A5E3277006A6DB1 /* main.m */; };
 		EE30AF5A1A5E3277006A6DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30AF591A5E3277006A6DB1 /* AppDelegate.m */; };
-		EE30AF5D1A5E3277006A6DB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30AF5C1A5E3277006A6DB1 /* ViewController.m */; };
-		EE30AF601A5E3277006A6DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE30AF5E1A5E3277006A6DB1 /* Main.storyboard */; };
 		EE30AF621A5E3277006A6DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE30AF611A5E3277006A6DB1 /* Images.xcassets */; };
 		EE30AF651A5E3277006A6DB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE30AF631A5E3277006A6DB1 /* LaunchScreen.xib */; };
 		EE30AF711A5E3278006A6DB1 /* Real_Score_KeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30AF701A5E3278006A6DB1 /* Real_Score_KeeperTests.m */; };
+		EE30AF7C1A5E34C8006A6DB1 /* RSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30AF7B1A5E34C8006A6DB1 /* RSKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		EE30AF561A5E3277006A6DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE30AF581A5E3277006A6DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE30AF591A5E3277006A6DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE30AF5B1A5E3277006A6DB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE30AF5C1A5E3277006A6DB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE30AF5F1A5E3277006A6DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE30AF611A5E3277006A6DB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE30AF641A5E3277006A6DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EE30AF6A1A5E3278006A6DB1 /* Real-Score-KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real-Score-KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30AF6F1A5E3278006A6DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE30AF701A5E3278006A6DB1 /* Real_Score_KeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Real_Score_KeeperTests.m; sourceTree = "<group>"; };
+		EE30AF7A1A5E34C8006A6DB1 /* RSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKViewController.h; sourceTree = "<group>"; };
+		EE30AF7B1A5E34C8006A6DB1 /* RSKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +81,8 @@
 			children = (
 				EE30AF581A5E3277006A6DB1 /* AppDelegate.h */,
 				EE30AF591A5E3277006A6DB1 /* AppDelegate.m */,
-				EE30AF5B1A5E3277006A6DB1 /* ViewController.h */,
-				EE30AF5C1A5E3277006A6DB1 /* ViewController.m */,
-				EE30AF5E1A5E3277006A6DB1 /* Main.storyboard */,
+				EE30AF7A1A5E34C8006A6DB1 /* RSKViewController.h */,
+				EE30AF7B1A5E34C8006A6DB1 /* RSKViewController.m */,
 				EE30AF611A5E3277006A6DB1 /* Images.xcassets */,
 				EE30AF631A5E3277006A6DB1 /* LaunchScreen.xib */,
 				EE30AF541A5E3277006A6DB1 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE30AF601A5E3277006A6DB1 /* Main.storyboard in Resources */,
 				EE30AF651A5E3277006A6DB1 /* LaunchScreen.xib in Resources */,
 				EE30AF621A5E3277006A6DB1 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE30AF5D1A5E3277006A6DB1 /* ViewController.m in Sources */,
+				EE30AF7C1A5E34C8006A6DB1 /* RSKViewController.m in Sources */,
 				EE30AF5A1A5E3277006A6DB1 /* AppDelegate.m in Sources */,
 				EE30AF571A5E3277006A6DB1 /* main.m in Sources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE30AF5E1A5E3277006A6DB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE30AF5F1A5E3277006A6DB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE30AF631A5E3277006A6DB1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +400,7 @@
 				EE30AF761A5E3278006A6DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE30AF771A5E3278006A6DB1 /* Build configuration list for PBXNativeTarget "Real-Score-KeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +409,7 @@
 				EE30AF791A5E3278006A6DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
